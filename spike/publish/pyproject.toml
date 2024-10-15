@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "publish"
+version = "0.1.0"
+description = ""
+authors = ["Eamonn O Nuallain <dev.eonuallain@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pika = "^1.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
